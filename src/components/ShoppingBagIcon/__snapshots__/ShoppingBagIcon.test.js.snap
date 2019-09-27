@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingBagIcon component should render ShoppingBagIcon 1`] = `ShallowWrapper {}`;
