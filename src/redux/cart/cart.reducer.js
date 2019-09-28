@@ -1,6 +1,6 @@
 import cartActionTypes from './cart.types';
 
-const INITIAL_STATE = {
+export const INITIAL_STATE = {
     dropdownHidden: true
 };
 
