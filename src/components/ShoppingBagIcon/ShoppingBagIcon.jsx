@@ -5,7 +5,7 @@ import { toggleCartDropdownHidden } from '../../redux/cart/cart.actions';
 
 import {ShoppingBagIconContainer, ShoppingBagIconAsset, ItemCountContainer} from './ShoppingBagIcon.styles';
 
-const ShoppingBagIcon = ({toggleCartDropdownHidden, itemCount}) => (
+export const ShoppingBagIcon = ({toggleCartDropdownHidden, itemCount}) => (
     <ShoppingBagIconContainer onClick={toggleCartDropdownHidden}>
         <ShoppingBagIconAsset />
         <ItemCountContainer>{itemCount}</ItemCountContainer>

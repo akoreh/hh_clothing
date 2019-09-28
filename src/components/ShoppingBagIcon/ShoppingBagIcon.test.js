@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import ShoppingBagIcon from './ShoppingBagIcon';
+import { ShoppingBagIcon } from './ShoppingBagIcon';
 
 describe('ShoppingBagIcon component', () => {
     let wrapper;

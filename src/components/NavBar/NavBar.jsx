@@ -9,7 +9,7 @@ import CartDropdown from '../CartDropdown/CartDropdown';
 
 import {NavBarContainer, OptionsContainer, OptionLink, Logo} from './NavBar.styles';
 
-const NavBar = ({cartDropdownHidden}) => (
+export const NavBar = ({cartDropdownHidden}) => (
     <NavBarContainer>
         <Logo>HH</Logo>
         <OptionsContainer>
